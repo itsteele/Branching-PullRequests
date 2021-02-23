@@ -14,7 +14,10 @@ public class GetInfo {
         System.out.println("Please enter your favorite number:");
         int fNumber = scan.nextInt();
         
-        System.out.printf("Your name is: %s \nYour age is: %d \nYour favorite number is: %d", name, age, fNumber);
+        System.out.println("Please enter your favorite drink:");
+        String drink = scan.nextLine();
+        
+        System.out.printf("Your name is: %s \nYour age is: %d \nYour favorite number is: %d \nYour favorite drink is %s", name, age, fNumber, drink);
         
     }
 	
