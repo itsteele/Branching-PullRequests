@@ -11,13 +11,16 @@ public class GetInfo {
         System.out.println("Please enter your age:");
         int age = scan.nextInt();
         
-        System.out.printf("Your name is: %s \nYour age is: %d", name, age);
+        System.out.println("Please enter your favorite number:");
+        int fNumber = scan.nextInt();
+        
+        System.out.printf("Your name is: %s \nYour age is: %d \nYour favorite number is: %d", name, age, fNumber);
+        
     }
 	
 	public static void helloWorld() {
 		System.out.println("Hello World");
 	}
-	
 	public static void printGreeting(String name, int hour) {
 		if (hour < 12) {
 			System.out.println("Good morning, " + name + "!");
